@@ -58,7 +58,7 @@ st.set_page_config(
     layout="wide"
 )
 
-st.title("🔬 반도체 공정 학습 도우미")
+st.title("🔬 반도체 공정 학습 도우미 SEMI(쎄미)")
 st.caption("💡 학부생을 위한 AI 기반 반도체 공정 이론 & 시각화 챗봇")
 
 # 2. Azure OpenAI 클라이언트 설정
@@ -424,3 +424,4 @@ col1, col2, col3 = st.columns([1, 2, 1])
 with col2:
     st.caption("🎓 반도체 공정 학습 도우미 | 학부생을 위한 AI 기반 학습 도구")
     st.caption("💡 RAG 검색 + 코드 인터프리터 시각화 | Powered by Azure OpenAI")
+
