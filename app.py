@@ -423,5 +423,5 @@ st.divider()
 col1, col2, col3 = st.columns([1, 2, 1])
 with col2:
     st.caption("🎓 반도체 공정 학습 도우미 | 학부생을 위한 AI 기반 학습 도구")
+    st.caption("RAG 자료 출처 | http://www.kocw.net/home/search/kemView.do?kemId=1040872")
     st.caption("💡 RAG 검색 + 코드 인터프리터 시각화 | Powered by Azure OpenAI")
-
